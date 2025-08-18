@@ -5,7 +5,7 @@
 }
 
 body{
-    background-image: url(tic\ tac\ toe.jpeg);
+    background-color: #548687;
     text-align: center;
     background-size: cover;
     
@@ -36,7 +36,7 @@ body{
     box-shadow: 0 0 1rem rgba(0,0,0,0.4);
     font-size: 8vmin;
     color:#b0413e;
-    background-color:#003333;
+    background-color:#ffffc7;
 }
 
 #reset-btn{
