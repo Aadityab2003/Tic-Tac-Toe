@@ -29,4 +29,21 @@ body{
 .box{
     height: 18vmin;
     width: 18vmin;
+    border-radius: 1rem;
+    border :none;
+    box-shadow: 0 0 1rem rgba(0,0,0,0.4);
+    font-size: 8vmin;
+    color:#b0413e;
+    background-color:#E8FFB8;
+}
+
+#reset-btn{
+    padding :1rem;
+    font-size: 1.25rem;
+    background-color: darkgrey;
+    color: white;
+    border: none; 
+    border-radius: 20px;
+
+
 }
