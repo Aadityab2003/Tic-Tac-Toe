@@ -27,7 +27,7 @@ const resetGame=()=>{
 
 boxes.forEach((box)=>{
     box.addEventListener('click',()=>{
-        console.log("Box is Clicked");
+      
         if(turnO){// id turn of player O
             box.innerText="O";
             turnO=false;
@@ -69,11 +69,19 @@ const checkWinner=()=>{
 
     if(posval1 !="" && posval2 !="" && posval3 !=""){
         if(posval1===posval2 && posval2===posval3){
-            console.log("Winner",posval1)
+           
             showWinner(posval1);
         }
      }
     }
     
 };
+
+newGameBtn.addEventListener('click',()=>{
+    resetGame();
+});
+
+resetbtn.addEventListener('click',()=>{
+    resetGame();
+});
 

@@ -5,8 +5,10 @@
 }
 
 body{
-    background-color:#548687;
-    text-align:center; 
+    background-image: url(tic\ tac\ toe.jpeg);
+    text-align: center;
+    background-size: cover;
+    
 }
 
 .container{
@@ -34,7 +36,7 @@ body{
     box-shadow: 0 0 1rem rgba(0,0,0,0.4);
     font-size: 8vmin;
     color:#b0413e;
-    background-color:#E8FFB8;
+    background-color:#003333;
 }
 
 #reset-btn{
@@ -57,12 +59,17 @@ body{
 }
 
 #msg{
-    color:#ffffc7;
+    color:#003333;
     font-size:5vmin;
 }
 
 .msg-container{
-    height :30vmin;
+    height :100vmin;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction:column;
+    gap:1rem;
 }
 
 .hide{
